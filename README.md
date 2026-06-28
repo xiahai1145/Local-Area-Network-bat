@@ -31,9 +31,9 @@
 
 ---
 
-## <span style="color:blue">✨ 核心特性详解</span>
+## <span style="color:blue">核心特性详解</span>
 
-### <span style="color:blue">🏠 智能局域网扫描（设备识别）</span>
+### <span style="color:blue">局域网扫描（设备识别）</span>
 
 无需第三方工具，基于 `ping` + `ARP` 缓存快速发现在线设备。通过分析 **TTL（生存时间）** 值智能识别设备类型：
 
@@ -49,7 +49,7 @@
 
 ---
 
-### <span style="color:blue">🎮 Minecraft 专用探测（v2.9 协议修复）</span>
+### <span style="color:blue">🎮 Minecraft 探测</span>
 
 同时支持两种主流 Minecraft 服务端端口扫描：
 - **Java 版**：TCP 25565（标准 TCP 连接检测）
@@ -71,7 +71,7 @@
 
 ---
 
-### <span style="color:blue">🌐 公网 IP 自检</span>
+### <span style="color:blue">公网 IP 自检</span>
 
 自动获取你的公网出口 IP，并扫描预设关键端口，**快速验证端口映射是否生效**，排查路由器 NAT 环回问题。
 
@@ -81,7 +81,7 @@
 
 ---
 
-### <span style="color:blue">🛣️ 网络诊断辅助</span>
+### <span style="color:blue">网络诊断辅助</span>
 
 - **路由追踪**（`tracert -d`）：排查网络延迟和路径节点，不解析主机名，速度更快。
 - **一键查询公网 IP**：通过 `cip.cc` 快速获取出口地址。
@@ -92,7 +92,7 @@
 
 ### 下载与运行
 1. 下载本仓库中的 `Local-Area-Network-bat.bat` 文件。
-2. 双击运行（普通用户权限即可，但建议右键“以管理员身份运行”以获得更完整的 ARP 信息）。
+2. 双击运行（普通用户权限即可，但建议右键“以管理员身份运行”以获得更完整的信息）。
 3. 在菜单中输入数字选择功能，按 `Enter` 执行。
 
 ### 使用示例
